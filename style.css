@@ -192,7 +192,7 @@ hr {
     grid-template-columns: 1fr 1fr;
     gap: 40px;
     width: 100%;
-    max-width: 1200px;
+    max-width: 1000px;
     margin: auto;
     background-color: #c3b2a0;
     padding: 70px;
