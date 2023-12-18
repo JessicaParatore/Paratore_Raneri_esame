@@ -83,6 +83,7 @@ main, footer {
 /* header immagine e testo HOME */
 .testo-immagine {
     width: 100%;
+    max-width: 1200px;
     overflow: hidden;
 }
 .testo-immagine img {
@@ -100,6 +101,7 @@ main, footer {
 /* header immagine e testo AUTORI */
 .testo-immagine-autore {
     width: 100%;
+    max-width: 1200px;
     overflow: hidden;
 }
 .testo-immagine-autore img {
@@ -139,9 +141,10 @@ main, footer {
 
 /* blocco informazioni */
 .testocentrale {
+    width: 100%;
+    max-width: 1200px;
     text-align: center;
     background-color: #c3b2a0;
-    width: 100%;
     margin-top: 80px;
     padding: 60px 0 60px 0;
 }
@@ -217,7 +220,8 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     gap: 30px;
-    max-width: 1000px;
+    width: 100%;
+    max-width: 1200px;
     margin: auto;
     padding: 90px;
 }
@@ -292,7 +296,8 @@ h3 {
 } 
 .grid-container {
     display: grid;
-    width: 100%; 
+    width: 100%;
+    max-width: 1200px; 
     margin: 0 auto;
     gap: 30px;
     padding: 80px 0 80px 0;
