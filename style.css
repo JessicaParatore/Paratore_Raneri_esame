@@ -119,6 +119,7 @@ main, footer {
 /* header immagine e testo LIBRI */
 .titolo-libro {
     width: 100%;
+    max-width: 1200px;
     overflow: hidden;
 }
 .titolo-libro img {
@@ -134,21 +135,6 @@ main, footer {
     padding: 0 0 0 60px;
     line-height: 1.1;
     font-weight: bold;
-}
-
-/* titolo LIBRI */
-.titolo-libri {
-    text-align: center;
-    width: 100%;
-    overflow: hidden;
-}
-.titolo-libri img {
-    max-width: 90%;
-}
-.titolo-libri h1 {
-    align-items: center;
-    width: 100%;
-    font-size: 70px;
 }
 
 /* blocco informazioni */
@@ -471,7 +457,7 @@ footer p {
     .colonna1 h3{text-align: center; display: block; font-size: 30px; text-align: left;} .colonna2 {margin-top: 0;display: block;}
     .grid-container {display: block;grid-template-columns: repeat(2, 1fr);} .grid-container h4 {text-align: center; font-size: 40px;} .card img{max-width: 50%;}
     .testo-immagine-autore h1 {font-size: 50px; padding: 30px 0 20px 30px;} .testo-immagine-autore img {max-width: 35%; padding: 65px 30px 0 0;} .card-libri img {width: 100%;max-width: 120px;} 
-    .titolo-libro h1{font-size: 38px; padding: 20px 0 10px 36px;} .titolo-libro img {max-width: 28%;padding: 20px 36px 10px 0;}
+    .titolo-libro h1{font-size: 38px; padding: 20px 0 10px 36px;} .titolo-libro img {max-width: 26%;padding: 20px 36px 10px 0;}
     .testocentrale-recensione {display: block; text-align: left;} .testocentrale-recensione p {display: block; font-size: 18px;padding: 0 90px 0 0; text-align: left;} .testocentrale-recensione h2 {display: block; font-size: 20px;padding: 0 90px 0 0; text-align: left;}
     .sezione-immagine-autori {align-items: left;max-width: 40%;height: auto;padding: 10px 0 0 0;}
 }
