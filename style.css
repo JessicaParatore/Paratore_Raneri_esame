@@ -181,11 +181,9 @@ hr {
 
 /* blocco recensione */
 .testocentrale-recensione {
-    text-align: center;
+   text-align: center;
     width: 100%;
-    max-width: 1200px;
-    padding: 50px;
-    background-color: #e7dfda;
+    padding: 60px 0 60px 0;
 }
 .testocentrale-recensione h2 {
     font-family: "Cambay", sans-serif;
@@ -204,7 +202,6 @@ hr {
     display: grid;
     grid-template-columns: 1fr 1fr;
     gap: 40px;
-    max-width: 1200px;
     margin: auto;
     background-color: #c3b2a0;
     padding: 70px;
